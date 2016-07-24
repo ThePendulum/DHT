@@ -1,0 +1,53 @@
+@font-face {
+    src: url('/fonts/roboto/Roboto-Regular.woff') format('woff'), url('/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url('/fonts/roboto/Roboto-Bold.woff') format('woff'), url('/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('/fonts/roboto/Roboto-Italic.woff') format('woff'), url('/fonts/roboto/Roboto-Italic.ttf') format('truetype');
+    font-family: Roboto;
+    font-style: italic;
+}
+
+@font-face {
+    src: url('/fonts/roboto/Roboto-BoldItalic.woff') format('woff'), url('/fonts/roboto/Roboto-BoldItalic.ttf') format('truetype');
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    background: #2294ff;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.measure {
+    font-size: 15vh;
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point,
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+    stroke: #fff;
+}
+
+.ct-series-b .ct-line {
+    stroke-width: 2px;
+}

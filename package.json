@@ -1,0 +1,25 @@
+{
+  "name": "dht",
+  "version": "1.0.0",
+  "description": "DHT temperature sensor display",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePendulum/DHT.git"
+  },
+  "author": "Niels Simenon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePendulum/DHT/issues"
+  },
+  "homepage": "https://github.com/ThePendulum/DHT#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "note-log": "^2.1.11",
+    "serialport": "^4.0.1",
+    "ws": "^1.1.1"
+  }
+}
